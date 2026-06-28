@@ -26,8 +26,8 @@ A full-stack custom Shopify application that allows merchants to dynamically upd
 **Prerequisites:** Node.js, MongoDB URI, and a Shopify Partner Account.
 
 **1. Clone the repository**
-git clone <YOUR_GITHUB_REPO_LINK>
-cd <YOUR_REPO_NAME>
+git clone <https://github.com/Aviral-24/Shopify_App>
+cd <Shopify-App>
 
 **2. Backend Setup**
 cd backend
@@ -52,6 +52,8 @@ npx @shopify/cli app dev
 * Enable the "Announcement Banner" in your Shopify Theme Editor (App Embeds).
 
 ## 🌐 Live Links
-* **Frontend (Vercel):** <YOUR_VERCEL_LINK_HERE>
-* **Backend (Render):** <YOUR_RENDER_LINK_HERE>
-* **Demo Video:** <YOUR_YOUTUBE_OR_DRIVE_VIDEO_LINK_HERE>
+* **Frontend (Vercel):** <shopify-app-nine-liard.vercel.app>
+* **Backend (Render):** <https://shopify-app-6ih4.onrender.com>
+* **Demo Video:** <1. https://drive.google.com/file/d/11wJ72_spoK2hMoWmoIXvuX7pizjnI-8L/view?usp=drive_link
+2. https://drive.google.com/file/d/18pkUWLGqm6MRPpsGx4rzdMwslCHd-GLa/view?usp=drive_link
+3. https://drive.google.com/file/d/1JTWfmcZz_p2QA5u9y_gG9hhunkvDwrxg/view?usp=drive_link>
