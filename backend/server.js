@@ -8,7 +8,13 @@ const announcementRoutes = require("./routes/announcementRoutes");
 const app = express();
 connectDB();  // connect to MongoDB
 
-app.use(cors());
+// Updated CORS Policy
+app.use(cors({
+  origin: '*', // Sabhi websites (Vercel) ko allow karega
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Preflight requests ke liye zaroori
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(express.json());
 
 // Mount the announcement routes
