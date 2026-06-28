@@ -32,7 +32,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/announcement",
+        "https://shopify-app-6ih4.onrender.com/api/announcement",
         {
           method: "POST",
           headers: {
